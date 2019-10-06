@@ -1,0 +1,1 @@
+const compose = (f, g) => (...arg) => f(g(...arg));
